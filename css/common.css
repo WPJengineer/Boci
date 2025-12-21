@@ -1,0 +1,16 @@
+:root {
+    --dark: #0f0f0f;
+    --light: #fdfdfd;
+    --green: #7eb999;
+    --yellow: #f6d636;
+    --orange: #fbb54d;
+    --violet: #e1b1ed;
+    --blue: #b0bafb;
+    --blue-search: #e1e4f9;
+    --blue-highlight: #5170ff;
+}
+
+@font-face {
+    font-family: "afacad";
+    src: url('/boci/assets/fonts/afacad.ttf');
+}
