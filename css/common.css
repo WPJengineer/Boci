@@ -43,6 +43,7 @@ header {
 
 .logo {
     width: 200px;
+    height: 150px;
 }
 
 .logo-header {
@@ -56,16 +57,16 @@ header {
 }
 
 .search-bar {
-    background-color: var(--blue-search);
+    /* background-color: var(--blue-search);
     width: 100px;
     display: flex;
     justify-content: flex-end;
     padding: 5px;
     border: 1px solid;
-    border-radius: 50px;
+    border-radius: 50px; */
 
     img {
-        width: 30px;
+        width: 40px;
     }
 }
 
