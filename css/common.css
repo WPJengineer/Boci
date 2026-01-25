@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: "afacad";
-    src: url('/assets/fonts/afacad.ttf');
+    src: url('/Boci/assets/fonts/afacad.ttf');
 }
 
 body {
@@ -93,7 +93,7 @@ footer {
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     p {
