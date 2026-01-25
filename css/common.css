@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: "afacad";
-    src: url('/Boci/assets/fonts/afacad.ttf');
+    src: url('../assets/fonts/afacad.ttf');
 }
 
 body {
