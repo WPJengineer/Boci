@@ -34,6 +34,7 @@ header {
     color: var(--dark);
     padding-right: 20px;
     padding-bottom: 10px;
+    padding-left: 20px;
 }
 
 .icon {
@@ -72,6 +73,10 @@ header {
     display: flex;
     justify-content: center;
     gap: 30px;
+
+    li {
+        text-align: center;
+    }
 }
 
 /*    FOOTER    */
