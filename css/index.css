@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: flex-end;
     padding: 0 50px;
-    color: var(--light);
+    color: var(--dark);
     position: relative;
 
     div {
@@ -30,6 +30,8 @@
         max-width: 600px;
         margin-bottom: 20px;
         text-align: center;
+        -webkit-text-stroke: 8px var(--light);
+        paint-order: stroke fill;
     }
 
     button {
