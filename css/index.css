@@ -115,7 +115,7 @@ main {
     }
 
     p {
-        font-size: 14px;
+        font-size: 18px;
         text-align: center;
     }
 }
@@ -171,7 +171,7 @@ main {
         text-align: center;
         padding: 10px;
         border: 4px solid;
-        font-size: 20px;
+        font-size: 24px;
         border-color: var(--violet);
     }
 }
