@@ -93,11 +93,11 @@ main {
 }
 
 .slogan img {
-    width: 101%;
+    width: 100%;
 }
 
 .slogan {
-    margin-bottom: -7px;
+    margin-bottom: -8px;
 }
 
 .descuento {
@@ -123,6 +123,7 @@ main {
 .subscribete {
     background-color: var(--blue-search);
     display: flex;
+    align-items: center;
     justify-content: space-between;
     gap: 50px;
     padding: 5px 20px;
