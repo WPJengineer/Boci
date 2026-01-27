@@ -1,3 +1,7 @@
+main {
+    padding-bottom: 50px;
+}
+
 .hero {
     width: 100%;
     height: 50vH;
@@ -86,6 +90,90 @@
     width: 200px;
     border: 3px solid var(--green);
     border-radius: 25px;
+}
+
+.slogan img {
+    width: 100%;
+}
+
+.slogan {
+    margin-bottom: -6px;
+}
+
+.descuento {
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
+    h3 {
+        font-size: 28px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+.subscribete {
+    background-color: var(--blue-search);
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 5px 20px;
+    border-radius: 30px;
+    border: 1px solid var(--dark);
+    font-weight: bold;
+}
+
+.scroll-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scrollbar {
+    display: flex;
+    /* gap: 20px; */
+
+    .left{
+        width: 100px;
+    }
+
+    .right {
+        width: 70px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+.scrollbarItem {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+    img {
+        width: 200px;
+        border: 3px solid var(--green);
+        border-radius: 25px;
+    }
+
+    p {
+        text-align: center;
+        padding: 10px;
+        border: 4px solid;
+        font-size: 20px;
+        border-color: var(--violet);
+    }
 }
 
 @media (min-width: 768px) {
