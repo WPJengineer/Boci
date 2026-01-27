@@ -33,7 +33,7 @@ main {
         max-width: 600px;
         margin-bottom: 20px;
         text-align: center;
-        -webkit-text-stroke: 8px var(--light);
+        -webkit-text-stroke: 6px var(--light);
         paint-order: stroke fill;
     }
 
