@@ -5,8 +5,8 @@ main {
 .buy {
     width: 80px;
     position: absolute;
-    /* top: -30.5px; */
-    top: 0;
+    top: -30.5px;
+    /* top: -29px; */
     right: 0;
     z-index: 10;
 }
