@@ -1,0 +1,48 @@
+.products {
+    padding: 50px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    background-color: var(--light);
+}
+
+.buy {
+    width: 80px;
+    position: absolute;
+    top: 152px;
+    right: 0;
+    z-index: 10;
+}
+
+.peluches {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--dark);
+    
+    img {
+        width: 200px;
+        border: 3px solid var(--green);
+        border-radius: 25px;
+    }
+
+    p {
+        text-align: center;
+        padding: 10px;
+        border: 4px solid;
+        font-size: 24px;
+        border-color: var(--violet);
+    }
+
+    img:hover, p:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    img:active, p:active {
+        transform: scale(1);
+    }
+}
