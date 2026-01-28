@@ -185,6 +185,11 @@ main {
         cursor: pointer;
     }
 
+    div {
+        width: 200px;
+        overflow: scroll;
+    }
+
     ul {
         display: flex;
         flex-direction: row;
