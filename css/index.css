@@ -6,9 +6,12 @@ main {
     width: 80px;
     position: absolute;
     top: -30.5px;
-    /* top: -29px; */
     right: 0;
     z-index: 10;
+}
+
+.buy:hover {
+    cursor: pointer;
 }
 
 .hero {
@@ -43,6 +46,7 @@ main {
         text-align: center;
         -webkit-text-stroke: 6px var(--light);
         paint-order: stroke fill;
+        color: var(--dark);
     }
 
     button {
@@ -73,12 +77,14 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    background-color: var(--light);
 
     p {
         text-align: center;
         padding: 10px;
         border: 4px solid;
         font-size: 20px;
+        color: var(--dark);
     }
 
     .peluches p {
@@ -100,6 +106,15 @@ main {
     border-radius: 25px;
 }
 
+.options img:hover, .options p:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.options img:active, .options p:active {
+    transform: scale(1);
+}
+
 .slogan img {
     width: 100%;
 }
@@ -115,6 +130,7 @@ main {
     align-items: center;
     gap: 10px;
     padding: 20px;
+    color: var(--dark);
 
     h3 {
         font-size: 28px;
@@ -140,10 +156,16 @@ main {
     font-weight: bold;
 }
 
+.subscribete:hover {
+    cursor: pointer;
+}
+
 .scroll-menu {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--light);
+    color: var(--dark);
 }
 
 .scrollbar {
@@ -159,6 +181,10 @@ main {
         width: 50px;
     }
 
+    .left:hover, .right:hover {
+        cursor: pointer;
+    }
+
     ul {
         display: flex;
         flex-direction: row;
@@ -169,7 +195,7 @@ main {
 .scrollbarItem {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 5px;
     
     img {
         width: 200px;
@@ -183,6 +209,15 @@ main {
         border: 4px solid;
         font-size: 24px;
         border-color: var(--violet);
+    }
+
+    img:hover, p:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    img:active, p:active {
+        transform: scale(1);
     }
 }
 

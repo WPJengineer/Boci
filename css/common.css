@@ -47,6 +47,10 @@ header {
     height: 150px;
 }
 
+.logo:hover {
+    cursor: pointer;
+}
+
 .logo-header {
     display: flex;
     justify-content: space-between;
@@ -55,6 +59,10 @@ header {
 .header-icons {
     display: flex;
     align-items: center;
+
+    img:hover {
+        cursor: pointer;
+    }
 }
 
 /*for later use*/
@@ -80,6 +88,17 @@ header {
 
     li {
         text-align: center;
+    }
+
+    li:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        color: var(--green);
+        text-decoration: underline;
+    }
+
+    li:active {
+        transform: scale(1);
     }
 }
 
@@ -110,6 +129,10 @@ footer {
     p {
         font-size: 14px;
     }
+
+    p:hover, img:hover {
+        cursor: pointer;
+    }
 }
 
 .legal ul {
@@ -119,6 +142,10 @@ footer {
 
     li {
         text-align: center;
+    }
+
+    li:hover {
+        cursor: pointer;
     }
 }
 
